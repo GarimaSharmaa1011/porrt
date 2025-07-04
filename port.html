@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garima Portfolio ❤</title>
+    <link rel="stylesheet" href="port.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Garima's Portfolio</div>
+        <div class="right">
+          <ul class="list">
+            <li class="li">Home</li>
+            <li class="li">About</li>
+            <li class="li">Contact</li>
+           
+            <li class="li"> Work & Certifications</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro">Hii everyone!!!</div>
+      <div class="intr">Myself <span class="garima">Garima Sharma.</span></div>
+      <div class="intro2">And I'm <span id="element"></span></div>
+
+      <section class="rightsec">
+        <img src="ginny.jpg" alt="Garima's Picture" />
+      </section>
+
+      <!-- Combined Projects & Certificates Section -->
+      <section class="work-certifications">
+        <hr class = "line"  >
+        
+        <h2 style="margin-top: 100px; margin-left :60px; margin-bottom: 40px ; text-align: center; font-size: 30px;">Projects </h2>
+
+        <!-- Projects -->
+        <div class="projects-grid">
+          <a class="project-card" href="https://garimasharmaa1011.github.io/tic-tact-toe/" target="_blank">
+            <h3>Tic Tac Toe</h3>
+            <p>Fun game using JS logic</p>
+          </a>
+          <a class="project-card" href="https://garimasharmaa1011.github.io/currency_convrter/" target="_blank">
+            <h3>Currency Converter</h3>
+            <p>Convert any currency live</p>
+          </a>
+          <a class="project-card" href="https://garimasharmaa1011.github.io/to_do_list/" target="_blank">
+            <h3>To-Do List</h3>
+            <p>Task manager with UI</p>
+          </a>
+          <a class="project-card" href="https://garimasharmaa1011.github.io/Amazon__clone/" target="_blank">
+            <h3>Amazon Clone</h3>
+            <p>Frontend clone with HTML/CSS</p>
+          </a>
+        </div>
+
+        <!-- Certifications -->
+        <h2 style="margin-top: 200px; margin-left :60px; margin-bottom: 40px ; text-align: center;font-size: 30px;">Certifications</h2>
+        <div class="cert-grid">
+          <div class="cert-item"><img src="tcspr.png" alt="Presentation Skills"><p><strong>Presentation Skills</strong></p></div>
+          <div class="cert-item"><img src="tcs.png" alt="Interview Skills"><p><strong>Interview Skills</strong></p></div>
+          <div class="cert-item"><img src="nestle.png" alt="Nestle Certificate"><p><strong>Nestle Certificate</strong></p></div>
+          <div class="cert-item"><img src="1011.png" alt="GSSOC"><p><strong>GSSOC Card</strong></p></div>
+          <div class="cert-item"><img src="digital.png" alt="Coursera:Digital Designing"><p><strong>Coursera:Digital Designing</strong></p></div>
+          <div class="cert-item"><img src="aws.png" alt="Introduction To Managing Services"><p><strong>Introduction To Managing Services</strong></p></div>
+          <div class="cert-item"><img src="skillup.png" alt="Generative AI"><p><strong>Generative AI</strong></p></div>
+          <div class="cert-item"><img src="node.png" alt="Basics Of NodeJs"><p><strong>Basics Of NodeJs</strong></p></div>
+          <div class="cert-item"><img src="scrum.png" alt="Jira SCRUM Project "><p><strong>Jira SCRUM Project </strong></p></div>
+          <div class="cert-item"><img src="msexcel.png" alt="Microsoft Excel"><p><strong>Microsoft Excel</strong></p></div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+    <section class="contact">
+  <hr  class="cont" >
+  <h2>Contact Me!</h2>
+  <p>If you'd like to connect, collaborate... just say hi — feel free to reach out using any of the platforms below 😊</p>
+
+  <div class="contact-icons">
+    <a href="https://github.com/garimasharmaa1011" target="_blank"><img src="git.png" alt="GitHub" /></a>
+    <a href="mailto:garima1011sharma@gmail.com"><img src="gmail.webp" alt="Gmail" /></a>
+    <a href="https://wa.me/8628875859" target="_blank"><img src="he.jpeg" alt="WhatsApp" /></a>
+    <a href="https://www.linkedin.com/in/garimasharmaa1011/" target="_blank"><img src="link.png" alt="LinkedIn" /></a>
+    <a href="https://leetcode.com/u/garima1011sharma/" target="_blank"><img src="leet.png" alt="Leetcode" /></a>
+  </div>
+</section>
+
+  </div>
+</section>
+
+    </main>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["a frontend web development enthusiast...", "&amp; a problem solver."],
+        typeSpeed: 50,
+      });
+
+      document.querySelector(".li:nth-child(5)").addEventListener("click", function () {
+        document.querySelector(".work-certifications").scrollIntoView({ behavior: "smooth" });
+      });
+      document.querySelector(".li:nth-child(4)").addEventListener("click", function () {
+        document.querySelector(".work-certifications").scrollIntoView({ behavior: "smooth" });
+      });
+      document.querySelector(".li:nth-child(3)").addEventListener("click", function () {
+        document.querySelector(".contact").scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>

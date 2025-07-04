@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: antiquewhite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: -25px;
+}
+.left {
+  font-size: 80px;
+  display: flex;
+  margin-left: 1050px;
+  cursor: pointer;
+}
+.left:hover {
+  color: rgb(198, 133, 48);
+}
+.li:hover {
+  color: rgb(174, 131, 77);
+  font-size: 30px;
+}
+.intro,
+.intr,
+.intro2 {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.intro {
+  color: rgb(123, 121, 121);
+  font-size: 45px;
+}
+.rightsec {
+  display: flex;
+  justify-content: right;
+  height: 400px;
+  margin: -170px 90px 500px 0;
+}
+.rightsec img {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+}
+.garima {
+  color: rgb(151, 20, 114);
+}
+#element {
+  color: pink;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  background-color: #db4eb1;
+  border: none;
+  margin: -160px auto 40px ;
+  transform: translateY(-30px);
+}
+.contii{
+  width: 80%;
+  height: 2px;
+  background-color: #db4eb1;
+  border: none;
+  margin: 180px auto 40px ;
+  transform: translateY(-30px);
+}
+
+.what{
+  color: aliceblue;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-top: 100px;
+  text-align:center;
+}
+.whatnot {
+  color: aliceblue;
+  margin-left: 45px;
+  font-size: 20px;
+  margin-top: 100;
+  text-align:center;
+
+}
+
+.lor {
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+
+.gmail,
+.linkdin,
+.Leetcode,
+.github {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 40px;
+  text-align: center;
+}
+.insta {
+  margin-left: 150px;
+  margin-top: -420px;
+}
+.gmail {
+  margin-left: 1000px;
+  position: relative;
+  top: -80px;
+}
+.whatsapp {
+  width: 70px;
+  height: 50px;
+  border-radius: 90%;
+  margin-left: 1350px;
+  position: relative;
+  top: -130px;
+}
+.insta:hover,
+.gmail:hover,
+.whatsapp:hover {
+  background-color: #999;
+  cursor: pointer;
+}
+
+/* ========== Projects Grid ========== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 70px;
+}
+.project-card {
+  background-color: #222;
+  border: 2px solid #db4eb1;
+  border-radius: 15px;
+  padding: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
+/* ========== Certificates Grid ========== */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 0 70px 50px;
+
+}
+.cert-item {
+  text-align: center;
+}
+.cert-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border: 2px solid #db4eb1;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.cert-item img:hover {
+  transform: scale(1.05);
+}
+.cert-item p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-icons {
+  
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+ 
+}
+
+.contact-icons img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.cont{
+  width: 80%;
+  height: 2px;
+  background-color: #db4eb1;
+  border: none;
+  margin: 180px auto 40px ;
+  transform: translateY(-30px);
+}
